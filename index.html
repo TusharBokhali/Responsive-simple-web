@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="w-100">
+        <nav>
+            <h2>Logo</h2>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">More</a></li>
+                    <span class="icon">
+                        <i class="ri-menu-line"></i>
+                    </span>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="center-part">
+            <div class="left">
+                <h2>World Famos Contry In <span>India</span>  For It Company In Mumbai.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius neque assumenda aliquam quasi repellat consectetur tenetur officiis dolorem quibusdam a.</p>
+
+                <button>Sing In</button>
+            </div>
+            <div class="right">
+                <img src="13108.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('i').click(function(){
+                $('li').css("display","block")
+            })
+
+            $('i').focus(function(){
+                $('li').css("display","none")
+            })
+        })
+    </script>
+</body>
+</html>
